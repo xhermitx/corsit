@@ -1,0 +1,39 @@
+.footer * {
+    margin: 0;
+    padding: 0;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    padding: .5rem;
+    background-color: #132c33;
+    color: #51c4d3; 
+    box-shadow: 0 0 .8rem #132c33;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+    margin: .6rem auto;
+}
+
+.social div{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+
+.social svg{
+    margin: 0 1rem;
+    color: #d8e3e7;
+}
+
+.cp{
+    font-size: .9rem;
+}

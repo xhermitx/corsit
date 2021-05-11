@@ -1,0 +1,30 @@
+html,
+body {
+  /* background-color: #132c33; */
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+body{
+  background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url('../public/bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+body::-webkit-scrollbar { width: 0 !important }
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px){
+  body{
+    overflow-x: hidden;
+  }
+}
