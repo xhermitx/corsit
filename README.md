@@ -5,9 +5,9 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 After cloning the repo
 
 run the following command to install all the dependencies
-
+```
 npm install
-
+```
 First, run the development server:
 
 ```bash
