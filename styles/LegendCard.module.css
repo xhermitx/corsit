@@ -1,0 +1,47 @@
+.base *{
+    margin: 0;
+}
+
+.face1{
+    border-radius: 5rem 5rem 0 0;
+    align-items: center;
+    /* background-image: url('../public/divyanshus.jpg'); */
+    background-size: contain;
+    background-size: cover;
+    height: 15rem;
+    width: 15rem;
+    position: relative;
+    transform: translateY(5rem);
+    transition: .3s ease-out;
+    z-index: 1;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+.card:hover .face1{
+    transform: translateY(0);
+}
+
+.face2{
+    padding: 1rem;
+    border-radius: 0 0 2rem 2rem;
+    background-color: #d8e3e7;
+    color: #126e82;
+    height: 10rem;
+    text-align: center;
+    width: 15rem;
+    box-shadow: 0rem 1rem 1rem #126e82;
+    position: relative;
+    transform: translateY(-5rem);
+    transition: .3s ease-out;
+}
+
+.card:hover .face2{
+    transform: translateY(0);
+}
+
+.face2 h3{
+    letter-spacing: 1rem;
+}

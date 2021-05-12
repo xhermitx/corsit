@@ -1,4 +1,19 @@
+@keyframes slideInTop {
+    0% {
+        transform: translateY(-100%);
+        background-color: #132c33;
+    }
+    50% {
+        transform: translateY(20%);
+    }
+    100% {
+        transform: translateY(0%);
+    }
+}
+
 .navigation{
+    /* position: fixed;
+    top: 0px; */
     display: flex;
     justify-content: space-around;
     min-height: 6rem;
@@ -7,8 +22,8 @@
     width: 100%;
     transition: 0.3s ease-in-out;
     color: #126e82;
+    animation: slideInTop ease-in-out 2s;
 }
-
 
 .navigation ul{
     display: flex;
@@ -22,6 +37,7 @@
 }
 
 .navigation a{
+    border-radius: .2rem;
     font-size: .3rem;
     align-items: center;
     letter-spacing: .1rem;

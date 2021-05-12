@@ -3,7 +3,7 @@ import styles from '../styles/Navigation.module.css';
 function Navigation() {
 
     return (
-        <div className={styles.component_body}>
+        <div>
             <nav className={styles.navigation}>
                 <div className={styles.logo}>
                     CORSIT

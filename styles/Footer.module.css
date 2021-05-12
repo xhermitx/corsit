@@ -4,10 +4,9 @@
 }
 
 .footer{
-    position: fixed;
-    bottom: 0;
     text-align: center;
     width: 100%;
+    position: absolute;
     height: auto;
     padding: .5rem;
     background-color: #132c33;

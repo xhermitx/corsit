@@ -1,3 +1,71 @@
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: .8;
+  }
+}
+
+@keyframes fromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(5%);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0%);
+  }
+}
+
 .heading{
   text-align: center;
+  font-size: 4rem;
+  width: 90%;
+  text-shadow: 0 0 .5rem #d8e3e7;
+  margin: auto;
+  color: #d8e3e7;
+  background-color: #126e82;
+  opacity: .8;
+  border-radius: .5rem;
+  box-shadow: 1rem 1rem 3rem #132c33;
+  font-family: Arial, Helvetica, sans-serif;
+  animation: fadeIn ease-out 1s forwards;
+}
+
+.description{
+  text-align: center;
+  width: 45%;
+  padding: 1rem;
+  margin-left: 50%;
+  margin-right: 5%;
+  letter-spacing: 1px;
+  background-color: transparent;
+  height: auto;
+  font-size: 2rem;
+  animation: fromRight ease-out 1s forwards;
+}
+
+.legends{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #132c33;
+  color: #d8e3e7;
+  text-align: center;
+  padding: 2rem;
+  box-shadow: 0 0 1rem #132c33;
+}
+
+.legends h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-transform: uppercase;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
