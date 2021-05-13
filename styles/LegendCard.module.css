@@ -2,10 +2,13 @@
     margin: 0;
 }
 
+.card{
+    width: 33.33%;
+}
+
 .face1{
-    border-radius: 5rem 5rem 0 0;
+    border-radius: 5rem 2.5rem 0 0;
     align-items: center;
-    /* background-image: url('../public/divyanshus.jpg'); */
     background-size: contain;
     background-size: cover;
     height: 15rem;
@@ -27,8 +30,8 @@
 .face2{
     padding: 1rem;
     border-radius: 0 0 2rem 2rem;
-    background-color: #d8e3e7;
-    color: #126e82;
+    background-color: #126e82;
+    color: #d8e3e7;
     height: 10rem;
     text-align: center;
     width: 15rem;
@@ -43,5 +46,5 @@
 }
 
 .face2 h3{
-    letter-spacing: 1rem;
+    font-size: 1.3rem;
 }
