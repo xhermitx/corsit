@@ -1,4 +1,5 @@
 import styles from '../styles/Navigation.module.css';
+import Link from 'next/link';
 
 function Navigation() {
 
@@ -10,16 +11,16 @@ function Navigation() {
                 </div>
                 <ul>
                     <li>
-                        <a href="#">HOME</a>
+                        <Link href="/">HOME</Link>
                     </li>
                     <li>
-                        <a href="#">OUR WORK</a>
+                        <Link href="/">OUR WORK</Link>
                     </li>
                     <li>
-                        <a href="#">OUR TEAM</a>
+                        <Link href="#">OUR TEAM</Link>
                     </li>
                     <li>
-                        <a href="#">ACHIEVEMENTS</a>
+                        <Link href="#">ACHIEVEMENTS</Link>
                     </li>
                 </ul>
             </nav>
